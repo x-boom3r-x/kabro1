@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Kabro Icon - K</title>
+  <circle cx="32" cy="32" r="30" fill="#FFC107" />
+  <!-- Letter K built with shapes (no font dependency) -->
+  <rect x="18" y="16" width="8" height="32" rx="4" fill="#111111" />
+  <path d="M30 32 L47 17" stroke="#111111" stroke-width="8" stroke-linecap="round" />
+  <path d="M30 32 L47 47" stroke="#111111" stroke-width="8" stroke-linecap="round" />
+</svg>

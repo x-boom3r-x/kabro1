@@ -1,0 +1,640 @@
+{
+  "categories": [
+    {
+      "id": "sweet-zone",
+      "name": "Sweet Zone",
+      "subcategories": [
+        { "slug": "glaces-frozen", "name": "Glaces & Frozen" },
+        { "slug": "chocolat-factory", "name": "Chocolat Factory" },
+        { "slug": "candy-shop", "name": "Candy Shop" },
+        { "slug": "biscuits-cookies", "name": "Biscuits & Cookies" }
+      ]
+    },
+    {
+      "id": "salty-corner",
+      "name": "Salty Corner",
+      "subcategories": [
+        { "slug": "chips-crisp", "name": "Chips & Crisp" },
+        { "slug": "apero-time", "name": "Apéro Time" },
+        { "slug": "asian-spicy", "name": "Asian Spicy" },
+        { "slug": "graines-nuts", "name": "Graines & Nuts" }
+      ]
+    },
+    {
+      "id": "drinks-lab",
+      "name": "Drinks Lab",
+      "subcategories": [
+        { "slug": "sodas-us-world", "name": "Sodas US & World" },
+        { "slug": "energy-boost", "name": "Energy Boost" },
+        { "slug": "chill-drinks", "name": "Chill Drinks" },
+        { "slug": "hydratation", "name": "Hydratation" }
+      ]
+    },
+    {
+      "id": "market-express",
+      "name": "Market Express",
+      "subcategories": [
+        { "slug": "morning-mood", "name": "Morning Mood" },
+        { "slug": "fresh-dairy", "name": "Fresh & Dairy" },
+        { "slug": "pantry-basics", "name": "Pantry Basics" },
+        { "slug": "home-essentials", "name": "Home Essentials" }
+      ]
+    },
+    {
+      "id": "smoke-lounge",
+      "name": "Smoke Lounge",
+      "subcategories": [
+        { "slug": "cigares-tabac", "name": "Cigares & Tabac" },
+        { "slug": "rolling-papers", "name": "Rolling Papers" },
+        { "slug": "hookah-vape", "name": "Hookah & Vape" },
+        { "slug": "lighters-gear", "name": "Lighters & Gear" }
+      ]
+    },
+    {
+      "id": "self-care",
+      "name": "Self Care",
+      "subcategories": [
+        { "slug": "body-hair", "name": "Body & Hair" },
+        { "slug": "first-aid", "name": "First Aid" },
+        { "slug": "intimacy", "name": "Intimacy" },
+        { "slug": "skin-routine", "name": "Skin Routine" }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "slug": "cheetos-flamin-hot-crunchy",
+      "name": "Cheetos Flamin' Hot Crunchy",
+      "price": 45,
+      "originalPrice": 55,
+      "image": "https://images.unsplash.com/photo-1600952841320-db92ec4047ca?w=400&h=400&fit=crop",
+      "rating": 4.8,
+      "isHot": true,
+      "categoryId": "salty-corner",
+      "subcategorySlug": "chips-crisp"
+    },
+    {
+      "slug": "monster-ultra-paradise",
+      "name": "Monster Energy Ultra Paradise",
+      "price": 35,
+      "image": "https://images.unsplash.com/photo-1622543925917-763c34d1a86e?w=400&h=400&fit=crop",
+      "rating": 4.6,
+      "categoryId": "drinks-lab",
+      "subcategorySlug": "energy-boost"
+    },
+    {
+      "slug": "reeses-peanut-butter-cups",
+      "name": "Reese's Peanut Butter Cups",
+      "price": 28,
+      "originalPrice": 35,
+      "image": "https://images.unsplash.com/photo-1534119768988-c496213eff76?w=400&h=400&fit=crop",
+      "rating": 4.9,
+      "isHot": true,
+      "categoryId": "sweet-zone",
+      "subcategorySlug": "chocolat-factory"
+    },
+    {
+      "slug": "samyang-buldak-2x-spicy",
+      "name": "Samyang Buldak 2x Spicy",
+      "price": 42,
+      "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=400&h=400&fit=crop",
+      "rating": 4.7,
+      "isHot": true,
+      "categoryId": "salty-corner",
+      "subcategorySlug": "asian-spicy"
+    },
+    {
+      "slug": "dr-pepper-classic-355ml",
+      "name": "Dr Pepper Classic 355ml",
+      "price": 25,
+      "image": "https://images.unsplash.com/photo-1624517452488-04869289c4ca?w=400&h=400&fit=crop",
+      "rating": 4.5,
+      "categoryId": "drinks-lab",
+      "subcategorySlug": "sodas-us-world"
+    },
+    {
+      "slug": "takis-fuego-extreme",
+      "name": "Takis Fuego Extreme",
+      "price": 38,
+      "originalPrice": 48,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400&h=400&fit=crop",
+      "rating": 4.8,
+      "isHot": true,
+      "categoryId": "salty-corner",
+      "subcategorySlug": "chips-crisp"
+    },
+    {
+      "slug": "lucky-charms-cereal",
+      "name": "Lucky Charms Cereal",
+      "price": 75,
+      "image": "https://images.unsplash.com/photo-1521483451569-e33803c0330c?w=400&h=400&fit=crop",
+      "rating": 4.4,
+      "categoryId": "market-express",
+      "subcategorySlug": "morning-mood"
+    },
+    {
+      "slug": "arizona-green-tea-honey",
+      "name": "Arizona Green Tea Honey",
+      "price": 22,
+      "image": "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=400&h=400&fit=crop",
+      "rating": 4.6,
+      "categoryId": "drinks-lab",
+      "subcategorySlug": "chill-drinks"
+    },
+    {
+      "slug": "ben-jerrys-cookie-dough",
+      "name": "Ben & Jerry's Cookie Dough",
+      "price": 60,
+      "image": "https://images.unsplash.com/photo-1551024709-8f23befc6cf7?w=400&h=400&fit=crop",
+      "rating": 4.7,
+      "categoryId": "sweet-zone",
+      "subcategorySlug": "glaces-frozen"
+    },
+    {
+      "slug": "magnum-classic",
+      "name": "Magnum Classic",
+      "price": 50,
+      "image": "https://images.unsplash.com/photo-1625944526602-691bf13bd8a2?w=400&h=400&fit=crop",
+      "rating": 4.5,
+      "categoryId": "sweet-zone",
+      "subcategorySlug": "glaces-frozen"
+    },
+    {
+      "slug": "oreo-import",
+      "name": "Oreo Import",
+      "price": 30,
+      "image": "https://images.unsplash.com/photo-1533597120975-ef25b9cf9b0a?w=400&h=400&fit=crop",
+      "rating": 4.6,
+      "categoryId": "sweet-zone",
+      "subcategorySlug": "biscuits-cookies"
+    },
+    {
+      "slug": "nerds-candy",
+      "name": "Nerds Candy",
+      "price": 20,
+      "image": "https://images.unsplash.com/photo-1606312610831-56a4eafe2a57?w=400&h=400&fit=crop",
+      "rating": 4.4,
+      "categoryId": "sweet-zone",
+      "subcategorySlug": "candy-shop"
+    },
+    {
+      "slug": "starbucks-frappuccino",
+      "name": "Starbucks Frappuccino",
+      "price": 28,
+      "image": "https://images.unsplash.com/photo-1551739441-29f98e30cb83?w=400&h=400&fit=crop",
+      "rating": 4.5,
+      "categoryId": "drinks-lab",
+      "subcategorySlug": "chill-drinks"
+    },
+    {
+      "slug": "pistaches-grillees",
+      "name": "Pistaches Grillées",
+      "price": 35,
+      "image": "https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?w=400&h=400&fit=crop",
+      "rating": 4.3,
+      "categoryId": "salty-corner",
+      "subcategorySlug": "graines-nuts"
+    },
+    {
+      "slug": "samyang-carbonara",
+      "name": "Samyang Carbonara",
+      "price": 40,
+      "image": "https://images.unsplash.com/photo-1526318472351-c75fd3be93ed?w=400&h=400&fit=crop",
+      "rating": 4.6,
+      "categoryId": "salty-corner",
+      "subcategorySlug": "asian-spicy"
+    },
+    {
+      "slug": "eau-fiji",
+      "name": "Eau Fiji",
+      "price": 18,
+      "image": "https://images.unsplash.com/photo-1541216742266-60e5b3e2e0c7?w=400&h=400&fit=crop",
+      "rating": 4.2,
+      "categoryId": "drinks-lab",
+      "subcategorySlug": "hydratation"
+    },
+    {
+      "slug": "hersheys-cookies-n-creme-bar",
+      "name": "Hershey's Cookies 'n' Creme",
+      "price": 32,
+      "image": "https://images.unsplash.com/photo-1606312610831-56a4eafe2a57?w=400&h=400&fit=crop",
+      "rating": 4.5,
+      "categoryId": "sweet-zone",
+      "subcategorySlug": "chocolat-factory"
+    },
+    {
+      "slug": "sour-patch-kids",
+      "name": "Sour Patch Kids",
+      "price": 24,
+      "image": "https://images.unsplash.com/photo-1610595425800-072d80d0214b?w=400&h=400&fit=crop",
+      "rating": 4.4,
+      "categoryId": "sweet-zone",
+      "subcategorySlug": "candy-shop"
+    },
+    {
+      "slug": "chips-ahoy-original",
+      "name": "Chips Ahoy! Original",
+      "price": 28,
+      "image": "https://images.unsplash.com/photo-1533597120975-ef25b9cf9b0a?w=400&h=400&fit=crop",
+      "rating": 4.3,
+      "categoryId": "sweet-zone",
+      "subcategorySlug": "biscuits-cookies"
+    },
+    {
+      "slug": "noix-cajou-grillees",
+      "name": "Noix de Cajou Grillées",
+      "price": 36,
+      "image": "https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?w=400&h=400&fit=crop",
+      "rating": 4.5,
+      "categoryId": "salty-corner",
+      "subcategorySlug": "graines-nuts"
+    },
+    {
+      "slug": "fanta-berry",
+      "name": "Fanta Berry",
+      "price": 26,
+      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=400&fit=crop",
+      "rating": 4.2,
+      "categoryId": "drinks-lab",
+      "subcategorySlug": "sodas-us-world"
+    },
+    {
+      "slug": "red-bull-tropical-edition",
+      "name": "Red Bull Tropical Edition",
+      "price": 30,
+      "image": "https://images.unsplash.com/photo-1614264107832-c2d4e35f0504?w=400&h=400&fit=crop",
+      "rating": 4.6,
+      "categoryId": "drinks-lab",
+      "subcategorySlug": "energy-boost"
+    },
+    {
+      "slug": "smartwater-600ml",
+      "name": "Smartwater 600ml",
+      "price": 20,
+      "image": "https://images.unsplash.com/photo-1558180076-2f9b5f6f0796?w=400&h=400&fit=crop",
+      "rating": 4.3,
+      "categoryId": "drinks-lab",
+      "subcategorySlug": "hydratation"
+    },
+    {
+      "slug": "nutella-350g",
+      "name": "Nutella 350g",
+      "price": 42,
+      "image": "https://images.unsplash.com/photo-1542343633-87a86b4c58cc?w=400&h=400&fit=crop",
+      "rating": 4.7,
+      "categoryId": "market-express",
+      "subcategorySlug": "morning-mood"
+    },
+    {
+      "slug": "pringles-original",
+      "name": "Pringles Original",
+      "price": 27,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400&h=400&fit=crop",
+      "rating": 4.4,
+      "categoryId": "salty-corner",
+      "subcategorySlug": "apero-time"
+    },
+    {
+      "slug": "bretzels-sales",
+      "name": "Bretzels Salés",
+      "price": 22,
+      "image": "https://images.unsplash.com/photo-1604908553406-cb9e7e8484a6?w=400&h=400&fit=crop",
+      "rating": 4.1,
+      "categoryId": "salty-corner",
+      "subcategorySlug": "apero-time"
+    },
+    {
+      "slug": "yaourt-a-boire-vanille",
+      "name": "Yaourt à boire Vanille",
+      "price": 18,
+      "image": "https://images.unsplash.com/photo-1584270354949-1f1379283b25?w=400&h=400&fit=crop",
+      "rating": 4.2,
+      "categoryId": "market-express",
+      "subcategorySlug": "fresh-dairy"
+    },
+    {
+      "slug": "fromage-cheddar-tranche",
+      "name": "Fromage Cheddar Tranché",
+      "price": 34,
+      "image": "https://images.unsplash.com/photo-1549399546-1a437bbed09d?w=400&h=400&fit=crop",
+      "rating": 4.3,
+      "categoryId": "market-express",
+      "subcategorySlug": "fresh-dairy"
+    },
+    {
+      "slug": "pain-de-mie-classique",
+      "name": "Pain de mie Classique",
+      "price": 20,
+      "image": "https://images.unsplash.com/photo-1604908553316-4d6ea9968437?w=400&h=400&fit=crop",
+      "rating": 4.0,
+      "categoryId": "market-express",
+      "subcategorySlug": "pantry-basics"
+    },
+    {
+      "slug": "oeufs-frais-12pcs",
+      "name": "Oeufs frais (12pcs)",
+      "price": 28,
+      "image": "https://images.unsplash.com/photo-1517958742690-749f8f7c46b8?w=400&h=400&fit=crop",
+      "rating": 4.5,
+      "categoryId": "market-express",
+      "subcategorySlug": "pantry-basics"
+    },
+    {
+      "slug": "piles-aa-4",
+      "name": "Piles AA (x4)",
+      "price": 25,
+      "image": "https://images.unsplash.com/photo-1600336155120-652943f7a3b1?w=400&h=400&fit=crop",
+      "rating": 4.1,
+      "categoryId": "market-express",
+      "subcategorySlug": "home-essentials"
+    },
+    {
+      "slug": "ampoule-led-10w",
+      "name": "Ampoule LED 10W",
+      "price": 30,
+      "image": "https://images.unsplash.com/photo-1482192596544-9eb780fc7f66?w=400&h=400&fit=crop",
+      "rating": 4.2,
+      "categoryId": "market-express",
+      "subcategorySlug": "home-essentials"
+    },
+    {
+      "slug": "marlboro-gold",
+      "name": "Marlboro Gold",
+      "price": 85,
+      "image": "https://images.unsplash.com/photo-1581375277641-ea62f53495df?w=400&h=400&fit=crop",
+      "rating": 4.0,
+      "categoryId": "smoke-lounge",
+      "subcategorySlug": "cigares-tabac"
+    },
+    {
+      "slug": "camel-blue",
+      "name": "Camel Blue",
+      "price": 80,
+      "image": "https://images.unsplash.com/photo-1599853566853-10ff6da0048b?w=400&h=400&fit=crop",
+      "rating": 3.9,
+      "categoryId": "smoke-lounge",
+      "subcategorySlug": "cigares-tabac"
+    },
+    {
+      "slug": "ocb-slim",
+      "name": "OCB Slim",
+      "price": 15,
+      "image": "https://images.unsplash.com/photo-1584793950126-bf5f655ad2ef?w=400&h=400&fit=crop",
+      "rating": 4.3,
+      "categoryId": "smoke-lounge",
+      "subcategorySlug": "rolling-papers"
+    },
+    {
+      "slug": "raw-classic",
+      "name": "RAW Classic",
+      "price": 18,
+      "image": "https://images.unsplash.com/photo-1607968565040-37be111b7b0c?w=400&h=400&fit=crop",
+      "rating": 4.4,
+      "categoryId": "smoke-lounge",
+      "subcategorySlug": "rolling-papers"
+    },
+    {
+      "slug": "puff-bar-mango",
+      "name": "Puff Bar Mango",
+      "price": 60,
+      "image": "https://images.unsplash.com/photo-1592194996308-7b43878e0f84?w=400&h=400&fit=crop",
+      "rating": 4.1,
+      "categoryId": "smoke-lounge",
+      "subcategorySlug": "hookah-vape"
+    },
+    {
+      "slug": "charbon-coco-chicha",
+      "name": "Charbon à chicha Coco",
+      "price": 35,
+      "image": "https://images.unsplash.com/photo-1597290288307-3dc00c36a3ad?w=400&h=400&fit=crop",
+      "rating": 4.2,
+      "categoryId": "smoke-lounge",
+      "subcategorySlug": "hookah-vape"
+    },
+    {
+      "slug": "briquet-clipper",
+      "name": "Briquet Clipper",
+      "price": 20,
+      "image": "https://images.unsplash.com/photo-1585386959984-a41552231658?w=400&h=400&fit=crop",
+      "rating": 4.0,
+      "categoryId": "smoke-lounge",
+      "subcategorySlug": "lighters-gear"
+    },
+    {
+      "slug": "grinder-metal",
+      "name": "Grinder Métal",
+      "price": 45,
+      "image": "https://images.unsplash.com/photo-1603566235404-d53504d8ef1a?w=400&h=400&fit=crop",
+      "rating": 4.3,
+      "categoryId": "smoke-lounge",
+      "subcategorySlug": "lighters-gear"
+    },
+    {
+      "slug": "axe-black-gel-douche",
+      "name": "Gel Douche Axe Black",
+      "price": 22,
+      "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc0?w=400&h=400&fit=crop",
+      "rating": 4.1,
+      "categoryId": "self-care",
+      "subcategorySlug": "body-hair"
+    },
+    {
+      "slug": "head-shoulders-shampooing",
+      "name": "Shampooing Head & Shoulders",
+      "price": 30,
+      "image": "https://images.unsplash.com/photo-1512756290469-0d6d7fa7331a?w=400&h=400&fit=crop",
+      "rating": 4.2,
+      "categoryId": "self-care",
+      "subcategorySlug": "body-hair"
+    },
+    {
+      "slug": "band-aid-pansements",
+      "name": "Pansements Band-Aid",
+      "price": 18,
+      "image": "https://images.unsplash.com/photo-1580281657525-6e367a4f9b9b?w=400&h=400&fit=crop",
+      "rating": 4.0,
+      "categoryId": "self-care",
+      "subcategorySlug": "first-aid"
+    },
+    {
+      "slug": "doliprane-500mg",
+      "name": "Doliprane 500mg",
+      "price": 25,
+      "image": "https://images.unsplash.com/photo-1527799820374-c4c2b95cf62b?w=400&h=400&fit=crop",
+      "rating": 4.3,
+      "categoryId": "self-care",
+      "subcategorySlug": "first-aid"
+    },
+    {
+      "slug": "durex-classic",
+      "name": "Durex Classic",
+      "price": 40,
+      "image": "https://images.unsplash.com/photo-1580476262792-14089e9f24c3?w=400&h=400&fit=crop",
+      "rating": 4.2,
+      "categoryId": "self-care",
+      "subcategorySlug": "intimacy"
+    },
+    {
+      "slug": "lubrifiant-intime",
+      "name": "Lubrifiant Intime",
+      "price": 35,
+      "image": "https://images.unsplash.com/photo-1598981457915-1f85fddc8025?w=400&h=400&fit=crop",
+      "rating": 4.1,
+      "categoryId": "self-care",
+      "subcategorySlug": "intimacy"
+    },
+    {
+      "slug": "masque-visage-hydratant",
+      "name": "Masque visage hydratant",
+      "price": 30,
+      "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=400&h=400&fit=crop",
+      "rating": 4.3,
+      "categoryId": "self-care",
+      "subcategorySlug": "skin-routine"
+    },
+    {
+      "slug": "cerave-creme-hydratante",
+      "name": "CeraVe Crème Hydratante",
+      "price": 45,
+      "image": "https://images.unsplash.com/photo-1611930022073-b7f31ba45f9d?w=400&h=400&fit=crop",
+      "rating": 4.6,
+      "categoryId": "self-care",
+      "subcategorySlug": "skin-routine"
+    },
+    {
+      "slug": "ben-jerrys-cookie-dough",
+      "name": "Ben & Jerry's Cookie Dough",
+      "price": 55,
+      "image": "https://images.unsplash.com/photo-1505253758473-96b701622225?w=400&h=400&fit=crop",
+      "rating": 4.6,
+      "categoryId": "sweet-zone",
+      "subcategorySlug": "glaces-frozen"
+    },
+    {
+      "slug": "magnum-classic-ice-cream",
+      "name": "Magnum Classic",
+      "price": 50,
+      "image": "https://images.unsplash.com/photo-1551024601-bec1545fe7e6?w=400&h=400&fit=crop",
+      "rating": 4.5,
+      "categoryId": "sweet-zone",
+      "subcategorySlug": "glaces-frozen"
+    },
+    {
+      "slug": "cheetos-flamin-hot",
+      "name": "Cheetos Flamin' Hot",
+      "price": 35,
+      "image": "https://images.unsplash.com/photo-1589308078053-7093e8094487?w=400&h=400&fit=crop",
+      "rating": 4.4,
+      "categoryId": "salty-corner",
+      "subcategorySlug": "chips-crisp"
+    },
+    {
+      "slug": "takis-fuego",
+      "name": "Takis Fuego",
+      "price": 38,
+      "image": "https://images.unsplash.com/photo-1601000239683-b64d1a0cea9b?w=400&h=400&fit=crop",
+      "rating": 4.3,
+      "categoryId": "salty-corner",
+      "subcategorySlug": "chips-crisp"
+    },
+    {
+      "slug": "samyang-carbonara",
+      "name": "Samyang Carbonara",
+      "price": 40,
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=400&h=400&fit=crop",
+      "rating": 4.2,
+      "categoryId": "salty-corner",
+      "subcategorySlug": "asian-spicy"
+    },
+    {
+      "slug": "buldak-ramen-2x-spicy",
+      "name": "Buldak Ramen 2x Spicy",
+      "price": 42,
+      "image": "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e?w=400&h=400&fit=crop",
+      "rating": 4.4,
+      "categoryId": "salty-corner",
+      "subcategorySlug": "asian-spicy"
+    },
+    {
+      "slug": "starbucks-frappuccino-mocha",
+      "name": "Starbucks Frappuccino Mocha",
+      "price": 45,
+      "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&h=400&fit=crop",
+      "rating": 4.5,
+      "categoryId": "drinks-lab",
+      "subcategorySlug": "chill-drinks"
+    },
+    {
+      "slug": "arizona-green-tea",
+      "name": "Arizona Green Tea",
+      "price": 28,
+      "image": "https://images.unsplash.com/photo-1464199981533-3312dd2d4d77?w=400&h=400&fit=crop",
+      "rating": 4.3,
+      "categoryId": "drinks-lab",
+      "subcategorySlug": "chill-drinks"
+    },
+    {
+      "slug": "reeses-peanut-butter-cups",
+      "name": "Reese's Peanut Butter Cups",
+      "price": 34,
+      "image": "https://images.unsplash.com/photo-1593229976736-5ecb51103bd0?w=400&h=400&fit=crop",
+      "rating": 4.6,
+      "categoryId": "sweet-zone",
+      "subcategorySlug": "chocolat-factory"
+    },
+    {
+      "slug": "nerds-rainbow",
+      "name": "Nerds Rainbow",
+      "price": 22,
+      "image": "https://images.unsplash.com/photo-1606312610782-2d8f52891f88?w=400&h=400&fit=crop",
+      "rating": 4.3,
+      "categoryId": "sweet-zone",
+      "subcategorySlug": "candy-shop"
+    },
+    {
+      "slug": "oreo-import-original",
+      "name": "Oreo Import Original",
+      "price": 26,
+      "image": "https://images.unsplash.com/photo-1589987704835-4e22a84a1753?w=400&h=400&fit=crop",
+      "rating": 4.4,
+      "categoryId": "sweet-zone",
+      "subcategorySlug": "biscuits-cookies"
+    },
+    {
+      "slug": "pistaches-salees",
+      "name": "Pistaches Salées",
+      "price": 38,
+      "image": "https://images.unsplash.com/photo-1604908176997-07e6822defde?w=400&h=400&fit=crop",
+      "rating": 4.5,
+      "categoryId": "salty-corner",
+      "subcategorySlug": "graines-nuts"
+    },
+    {
+      "slug": "dr-pepper-cherry",
+      "name": "Dr Pepper Cherry",
+      "price": 27,
+      "image": "https://images.unsplash.com/photo-1620503923508-5eac353e2a6e?w=400&h=400&fit=crop",
+      "rating": 4.2,
+      "categoryId": "drinks-lab",
+      "subcategorySlug": "sodas-us-world"
+    },
+    {
+      "slug": "monster-ultra",
+      "name": "Monster Ultra",
+      "price": 32,
+      "image": "https://images.unsplash.com/photo-1607954964089-21c5acf2a14d?w=400&h=400&fit=crop",
+      "rating": 4.4,
+      "categoryId": "drinks-lab",
+      "subcategorySlug": "energy-boost"
+    },
+    {
+      "slug": "cereales-lucky-charms",
+      "name": "Céréales Lucky Charms",
+      "price": 40,
+      "image": "https://images.unsplash.com/photo-1517677208171-0bc6725a3e60?w=400&h=400&fit=crop",
+      "rating": 4.5,
+      "categoryId": "market-express",
+      "subcategorySlug": "morning-mood"
+    }
+  ]
+}
